@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/mysql.jar mysql.jar
-EXPOSE 8086
-ENTRYPOINT ["java", "-jar", "mysql.jar"]
+ADD target/Spring-Boot-appl Spring-Boot-appl
+EXPOSE 8090
+ENTRYPOINT ["java", "-jar", "Spring-Boot-appl"]
