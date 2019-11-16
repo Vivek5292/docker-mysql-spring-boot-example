@@ -51,7 +51,13 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
+	<distributionManagement>
+        	<repository>
+        		<id>central</id>
+        		<name>a78f91843166-releases</name>
+        		<url>http://34.248.78.69:8081/artifactory/libs-release</url>
+       		</repository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
